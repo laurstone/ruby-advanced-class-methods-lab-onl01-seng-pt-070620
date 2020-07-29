@@ -62,6 +62,7 @@ class Song
     song_match
  end
  
- def self.destroy_all
-   @@all.clear
+  def self.destroy_all
+   self.all.clear
+  end 
 end
